@@ -10,6 +10,8 @@ class Sockets {
 
       // Listen event messageToServer
       socket.on('messageToServer', (data) => {
+        console.log(data);
+
         this.io.emit('messageFromServer', data);
       });
     });
