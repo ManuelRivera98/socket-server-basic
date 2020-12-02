@@ -5,7 +5,8 @@
   "author": "Manuel Rivera mr98.dev@gmail.com",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
